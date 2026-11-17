@@ -1,23 +1,180 @@
+:root {
+  --primary-color: #6e2905;
+  --secondary-color: #b85d33;
+  --bg-color: #fdfbf7;
+  --text-main: #4a3b32;
+  --card-bg: #ffffff;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .nav-link {
+  color: #e8e4dc;
+  font-weight: 500;
+  padding: 0.5rem 1.2rem;
+  margin: 0 0.3rem;
+  border-radius: 50rem;
+  transition: all 0.25s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+.navbar .nav-link.active {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+}
+
+.uvod,
+.zvirata,
+.galerie {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.uvod h4,
+.zvirata > h4,
+.galerie > h4 {
+  color: var(--primary-color);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #d4c8b8;
+  letter-spacing: 0.5px;
+}
+
+.uvod {
+  background-color: var(--card-bg);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.uvod p {
+  color: #555555;
+  margin-bottom: 1rem;
+}
+
 .zvirata .card-group {
-  display: flex;          
-  justify-content: center; 
-  gap: 20px;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .zvirata .card {
-  width: 350px;           
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  flex: 1 1 320px;
+  background-color: var(--card-bg);
+  border: none;
+  border-radius: 1rem;
   overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.zvirata .card:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
 }
 
 .zvirata .card-img-top {
   width: 100%;
-  height: 200px;
+  height: 260px;
   object-fit: cover;
 }
 
 .zvirata .card-body {
-  padding: 15px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.zvirata .card-title {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.zvirata .card-body p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+  color: #555555;
+}
+
+.zvirata .card-body p b {
+  color: #111111;
+}
+
+.btn-solid.theme-primary {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: auto;
+  align-self: flex-start;
+  transition: background-color 0.2s ease;
+}
+
+.btn-solid.theme-primary:hover {
+  background-color: var(--secondary-color);
+}
+
+.galerie .card {
+  background-color: var(--card-bg);
+  border: none;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  height: 100%;
+}
+
+.galerie .card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.galerie .card-body {
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.galerie .card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.galerie .btn-xs {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.75rem;
+  margin-top: 0;
 }
