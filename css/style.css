@@ -124,6 +124,216 @@ body {
   background-color: #f09469;
 }
 
+.btn-solid {
+  display: inline-block;
+  color: #ffffff;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 0.4rem;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-solid:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.btn-solid.theme-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-solid.theme-primary:hover {
+  background-color: #b1450b;
+}
+
+.btn-solid.theme-secondary {
+  background-color: var(--secondary-color);
+}
+
+.btn-solid.theme-secondary:hover {
+  background-color: #f09469;
+}
+
+.filosofie {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.filosofie .card {
+  background-color: var(--card-bg);
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.filosofie .card-body {
+  padding: 2.5rem;
+}
+
+.filosofie .card-title {
+  color: var(--primary-color);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.filosofie .card-text {
+  color: #555555;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.filosofie .card-img-bottom {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.teaser {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.teaser > h4 {
+  color: var(--primary-color);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.teaser-perex {
+  color: #555555;
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+}
+
+.teaser .card {
+  background-color: var(--card-bg);
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.teaser .card-img-top {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.teaser .card-body {
+  padding: 2rem;
+}
+
+.teaser .card-title {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.teaser .card-text {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #555555;
+}
+
+.duveryhodnost {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.duveryhodnost .card-group {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.duveryhodnost .card {
+  flex: 1 1 220px;
+  background-color: var(--card-bg);
+  border: none;
+  border-radius: 1rem;
+}
+
+.duveryhodnost .card-body {
+  padding: 2rem;
+}
+
+.duveryhodnost .card-title {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.duveryhodnost .card-text {
+  font-size: 0.9rem;
+  color: #555555;
+  margin: 0;
+}
+
+.reference {
+  max-width: 1200px;
+  margin: 4rem auto 5rem auto;
+  padding: 0 1.5rem;
+}
+
+.reference > h4 {
+  color: var(--primary-color);
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.reference .card-row {
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--card-bg);
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.reference .card-img-start {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 220px;
+}
+
+.reference .card-body {
+  padding: 1.5rem;
+  width: 60%;
+}
+
+.reference .card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.reference .card-text {
+  font-size: 0.9rem;
+  color: #555555;
+  margin-bottom: 1rem;
+}
+
+.fg-2 {
+  color: #888888;
+}
+
 .uvod,
 .zvirata,
 .galerie {
