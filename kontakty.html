@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
   </head>
 </head>
+
 <body>
 <section class="navbar">
     <ul class="nav nav-pills">
@@ -28,6 +29,82 @@
   </li>
  </ul>
     </section>
+
+    <div class="hero page-header text-center">
+      <div class="card">
+        <div class="card-header">
+          <h4>TRIPLE RAY – SPOJTE SE S NÁMI</h4>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title"><b>MÁTE ZÁJEM O REZERVACI?</b></h4>
+          <p class="card-text">"Rádi zodpovíme veškeré vaše dotazy ohledně volných mláďat, podmínek chovu nebo domluvíme nezávaznou návštěvu v naší stanici."</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-section container my-5">
+      <div class="row g-5">
+        
+        <div class="lg:col-6">
+          <h4 class="text-primary">KDE NÁS NAJDETE</h4>
+          <div class="card card-row " style="max-width: 100%;">
+            <div class="card-body">
+              <h4 class="card-title"><b>TELEFONICKÝ KONTAKT</b></h4>
+              <p class="card-text"><b>+420 777 888 999</b></p>
+              <p class="card-text"><small class="fg-2">Pondělí – Pátek: 9:00 – 18:00</small></p>
+            </div>
+          </div>
+          <div class="card card-row" style="max-width: 100%;">
+            <div class="card-body">
+              <h4 class="card-title"><b>E-MAILOVÁ ADRESA</b></h4>
+              <p class="card-text"><b>info@tripleray.cz</b></p>
+              <p class="card-text"><small class="fg-2">Odpovídáme obvykle do 24 hodin</small></p>
+            </div>
+          </div>
+          <div class="card card-row " style="max-width: 100%;">
+            <div class="card-body">
+              <h4 class="card-title"><b>SÍDLO STANICE</b></h4>
+              <p class="card-text"><b>Poděbradská 45, Krkonoše, Česká republika</b></p>
+              <p class="card-text"><small class="fg-2">Návštěvy možné výhradně po předchozí domluvě</small></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="lg:col-6">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title text-primary">NEZÁVAZNÝ REZERVAČNÍ FORMULÁŘ</h4>
+              <form>
+                <div class="mb-3">
+                  <label for="fullName" class="text-secondary">Vaše jméno a příjmení</label>
+                  <input type="text" class="form-control p-3 rounded-3" id="fullName" placeholder="např. Jan Novák">
+                </div>
+                <div class="mb-3">
+                  <label for="emailaddress" class="text-secondary">E-mailová adresa</label>
+                  <input type="email" class="form-control p-3 rounded-3" id="emailAddress" placeholder="vas.email@seznam.cz">
+                </div>
+                <div class="mb-3">
+                  <label for="vybertezvire" class="text-secondary">Mám zájem o / Dotaz na:</label>
+                  <select class="form-select p-3 rounded-3" id="vybertezvire">
+                    <option selected>Vyberte zvíře / vrhu</option>
+                    <option value="pes">Německý ovčák (Vrh A)</option>
+                    <option value="kocka">Kočka domácí (Vrh C)</option>
+                    <option value="liska">Liška obecná (Jarní odchov 2027)</option>
+                    <option value="jine">Obecný dotaz / Poradenství</option>
+                  </select>
+                </div>
+                <div class="mb-4">
+                  <label for="messageText" class="text-secondary">Zpráva nebo poznámka k rezervaci</label>
+                  <textarea class="form-control p-3 rounded-3" id="messageText" rows="4" placeholder="Napište nám své představě, zkušenostem s chovem či doplňující dotazy..."></textarea>
+                </div>
+                <button type="submit" class="btn-solid theme-primary">ODESLAT NEZÁVAZNÝ DOTAZ</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
 
         <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>

@@ -567,3 +567,71 @@ body {
   color: #555555;
   margin-bottom: 0.5rem;
 }
+
+.contact-section .text-primary {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.contact-section .text-secondary {
+  color: var(--text-main);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.contact-section .card {
+  background-color: var(--card-bg, #ffffff);
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1.5rem;
+}
+
+.contact-section .card-body {
+  padding: 2rem;
+}
+
+.contact-section .card-title {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-section .card-text {
+  color: #555555;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.contact-section .form-control,
+.contact-section .form-select {
+  border: 1px solid #e0d6c8;
+  background-color: #fdfbf7;
+  color: var(--text-main);
+  font-size: 0.95rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-section .form-control:focus,
+.contact-section .form-select:focus {
+  border-color: var(--secondary-color, #b85d33);
+  box-shadow: 0 0 0 0.25rem rgba(184, 93, 51, 0.15);
+  background-color: #ffffff;
+  outline: none;
+}
+
+.contact-section .form-control::placeholder {
+  color: #9e9389;
+}
+
+.contact-section button[type="submit"] {
+  width: 100%;
+  padding: 0.9rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
