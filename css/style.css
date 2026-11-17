@@ -42,6 +42,88 @@ body {
   color: #ffffff;
 }
 
+.hero {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.hero .card {
+  background-color: var(--card-bg);
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.08);
+}
+
+.hero .card-header {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 1.5rem;
+  border-bottom: none;
+}
+
+.hero .card-header h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.hero .card-body {
+  padding: 3rem 2.5rem;
+}
+
+.hero .card-title {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.hero .card-text {
+  font-size: 1.15rem;
+  color: var(--text-main);
+  font-style: italic;
+  max-width: 700px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.hero .btn-solid {
+  display: inline-block;
+  color: #ffffff;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 0.4rem;
+}
+
+.hero .btn-solid:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hero .btn-solid.theme-primary {
+  background-color: var(--primary-color);
+}
+
+.hero .btn-solid.theme-primary:hover {
+  background-color: #b1450b;
+}
+
+.hero .btn-solid.theme-secondary {
+  background-color: var(--secondary-color);
+}
+
+.hero .btn-solid.theme-secondary:hover {
+  background-color: #f09469;
+}
+
 .uvod,
 .zvirata,
 .galerie {
