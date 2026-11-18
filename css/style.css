@@ -640,3 +640,19 @@ body {
   border: none;
   cursor: pointer;
 }
+
+.footer {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  border-top: #562104;
+}
+
+.footer.card-body p {
+  margin: 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  color: #fbf1de;
+}
